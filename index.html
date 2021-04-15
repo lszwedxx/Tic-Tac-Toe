@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <div class="wrapper">
+                <button class="wrapper__reset-btn">Reset</button>
+                <span class="wrapper__winner">The winner is : </span>
+                <audio class="audio" src = "./src/voice/look.mp3"></audio>
+        </div>
+    <div class="board">
+        <div class="board__players">
+            <div class="board__player">
+                <p>Player 1</p>
+                <img class="sign" src="/src/images/x.png"/>
+            </div>
+            <div class="board__player">
+                <p>Player 2</p>
+                <img class="sign" src="/src/images/circle.png">
+            </div>
+        </div>
+        <ul class="board__squers">
+            <li class="squer"></li>
+            <li class="squer"></li>
+            <li class="squer"></li>
+            <li class="squer"></li>
+            <li class="squer"></li>
+            <li class="squer"></li>
+            <li class="squer"></li>
+            <li class="squer"></li>
+            <li class="squer"></li>
+        </ul>
+    </div>
+</main>
+    <script type = module src="./src/js/index.js"></script>
+</body>
+</html>
